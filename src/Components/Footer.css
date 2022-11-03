@@ -1,0 +1,41 @@
+#footer{
+    text-align: center;
+    
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.btn{
+    background-color:white;
+    color:blackq;
+  border: 1px solid white;
+  margin: 3px;
+  
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+ 
+ 
+    
+}
+@media screen and  (max-width:300px){
+  
+  .btn{
+    
+    font-size: small;
+  }
+      
+
+  }
+  @media screen and  (max-width:320px){
+    .btn{
+        font-size: small;
+    }
+}
